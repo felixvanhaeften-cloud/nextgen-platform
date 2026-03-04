@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>NextGen Platform</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+        }
+
+        /* Navigatiebalk */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f2ff;
+            transform: scale(1.1);
+        }
+
+        /* Hoofdsectie */
+        .hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .main-button {
+            padding: 18px 45px;
+            font-size: 18px;
+            border: none;
+            border-radius: 40px;
+            background: linear-gradient(45deg, #00f2ff, #ff00c8);
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        .main-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" target="_blank">Dashboard</a>
+    <a href="https://www.youtube.com/embed/oHg5SJYRHA0?autoplay=1" target="_blank">Features</a>
+    <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&start=30" target="_blank">Beta</a>
+    <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&start=60" target="_blank">Updates</a>
+</nav>
+
+<div class="hero">
+    <h1>Welkom bij NextGen</h1>
+    <p>Ontdek de nieuwste innovatieve functies van ons platform. Alles is ontworpen voor snelheid, prestaties en ultieme gebruikerservaring.</p>
+    <button class="main-button"
+        onclick="window.open('https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1','_blank')">
+        Start Nu
+    </button>
+</div>
+
+</body>
+</html>
